@@ -7,8 +7,9 @@
     "start": "nodemon backend/server.js",
     "dev": "set NODE_ENV=development&&nodemon backend/server.js",
     "prod": "set NODE_ENV=production&&nodemon backend/server.js",
-    "seeder": "node backend/utils/seeder.js"
+    "seeder": "node backend/utils/seeder.js",
     "build": "cd frontend && npm ci && npm run build"
+ 
   },
   "author": "JV Logesh",
   "license": "ISC",
