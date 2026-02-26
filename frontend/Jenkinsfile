@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'us-east-1'
-        S3_BUCKET = 'jvlcart-frontend'
+        S3_BUCKET = 'jvlcart'
         CLOUDFRONT_DISTRIBUTION_ID = 'E2KYFYDLVUJO6N'
     }
 
