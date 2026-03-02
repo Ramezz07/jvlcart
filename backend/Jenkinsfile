@@ -18,6 +18,7 @@ pipeline {
                 sshagent(['sshkey-cred']) {
                     sh '''
                         rsync -avz \
+                    -e "ssh -o StrictHostKeyChecking=no" \
                             --exclude='node_modules' \
                             --exclude='.git' \
                             --exclude='frontend' \
