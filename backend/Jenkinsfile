@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git credentialsId: 'github-cred', url: 'https://github.com/Ramezz07/devops-build.git'
+                git credentialsId: 'github-cred', url: 'https://github.com/Ramezz07/jvlcart.git'
             }
         }
 
