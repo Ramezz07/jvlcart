@@ -29,7 +29,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cd frontend && CI=false REACT_APP_API_URL=http://13.217.224.102:8000 npm ci && CI=false REACT_APP_API_URL=http://13.217.224.102:8000 npm run build"
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
