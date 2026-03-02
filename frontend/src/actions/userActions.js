@@ -1,3 +1,4 @@
+import axios from '../axiosConfig';
 import {
     loginFail,
     loginRequest, 
@@ -40,7 +41,7 @@ import {
     updateUserFail
 
 } from '../slices/userSlice'
-import axios from 'axios';
+import axios from '../axiosConfig';
 
 export const login = (email, password) => async (dispatch) => {
 

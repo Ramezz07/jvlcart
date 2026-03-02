@@ -1,3 +1,4 @@
+import axios from '../axiosConfig';
 import {addCartItemRequest, addCartItemSuccess} from '../slices/cartSlice';
 import axios from 'axios'
 
